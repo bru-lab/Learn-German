@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apprendre l'allemand</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="script/Vocab.js" defer></script>
+    <script src="script/app.js" defer></script>
+</head>
+<body onload="getRandomWord()">
+    <div class="flashcard__container" id="flashcard">
+        <div class="flashcard__logo">
+            <img src="assets/logo-transparente.png" class="logo">
+        </div>
+        <div class="term" id="term">
+            <h3>word</h3>
+        </div>
+        <div class="definition" id="definition">
+            <h3>definition</h3>
+        </div>
+
+        <div class="buttons">
+            <button id="checkButton">tradução</button>
+            <button id="nextButton">próxima palavra</button>
+        </div>
+        
+    </div>
+</body>
+</html>
